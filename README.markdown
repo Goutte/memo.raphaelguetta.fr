@@ -1,9 +1,26 @@
 ## RAFI
 
-rake install
+Configuration (basique) dans `_config.yml`.
+
+### Posts
+
+Markdown : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet and http://octopress.org/docs/blogging/plugins
+
+Fichiers dans le dossier `source/_posts/`.
 
 
+### Themes
 
+- http://opthemes.com/
+- http://octopressthemes.com/
+
+```
+$ git clone THEME_GIT_URL .themes/THEME_NAME
+$ rake install['THEME_NAME']
+$ rake generate
+```
+
+---
 
 ## What is Octopress?
 
